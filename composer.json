@@ -1,0 +1,17 @@
+{
+  "name": "swag-training/shopware6-storefront-render-event",
+  "description": "Add data to page via StorefrontRenderEvent",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\StorefrontRenderEvent\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\StorefrontRenderEvent\\SwagTrainingStorefrontRenderEvent",
+    "label": {
+      "en-GB": "Add data to page via StorefrontRenderEvent"
+    }
+  }
+}
